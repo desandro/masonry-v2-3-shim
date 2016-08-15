@@ -24,7 +24,7 @@
     var isAniOption = this.options.isAnimated;
     if ( isAniOption !== undefined ) {
       this.options.transitionDuration = isAniOption ?
-        Masonry.prototype.options.transitionDuration : 0;
+        this.options.transitionDuration : 0;
     }
 
     if ( isAniOption === undefined || isAniOption ) {
